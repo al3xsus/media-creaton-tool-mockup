@@ -1,0 +1,27 @@
+.title-bar {
+    width: 99%;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 1vh 0 2vh 0;
+}
+
+.title-bar > * {
+    height: 20px;
+    width: 20px;
+    margin: 0 5px 0 5px;
+    cursor: pointer;
+}
+
+.minimize {
+    border-color: #1D1D2C;
+    border-bottom: 1px solid;
+}
+
+.maximize {
+    border: 1px solid #1D1D2C;
+}
+
+.close {
+}

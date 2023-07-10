@@ -1,0 +1,8 @@
+select {
+    height: 100%;
+}
+
+option {
+    font-family: 'Public Sans', sans-serif;
+    font-size: min(2vw, 2vh);
+}

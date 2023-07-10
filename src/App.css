@@ -1,0 +1,73 @@
+body {
+    font-family: 'Public Sans', sans-serif;
+    color: #1D1D2C;
+}
+
+.main-container {
+    width: 70vw;
+    height: 80vh;
+    margin-left: 15vw;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: max(1vh, 1vw);
+}
+
+.h1-custom {
+    font-family: 'Quicksand', sans-serif;
+    font-size: max(10vw, 10vh);
+    color: #3CBCC3;
+    font-weight: 300;
+}
+
+.p-custom {
+    font-family: 'Public Sans', sans-serif;
+    font-size: min(3vw, 3vh);
+    margin: 1%;
+}
+
+.choose-option, .unselectable {
+    height: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    cursor: pointer;
+    align-items: center;
+    margin: 1%;
+}
+
+.unselectable {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.neumorph-default {
+    border-radius: 50px;
+    background: #F7F4E9;
+    box-shadow: 20px 20px 60px #a3a19a,
+    -20px -20px 60px #ffffff;
+}
+
+.neumorph-pressed {
+    border-radius: 50px;
+    background: #F7F4E9;
+    box-shadow: inset 20px 20px 60px #a3a19a,
+    inset -20px -20px 60px #ffffff;
+}
+
+.screen-container {
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.content-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50%;
+}
