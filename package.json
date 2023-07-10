@@ -21,7 +21,9 @@
     "semantic-ui",
     "mockup",
     "design-mockup",
-    "typescript"
+    "typescript",
+    "soft-ui",
+    "neomorphism"
   ],
   "license": "MIT",
   "name": "media-creation-tool-mockup",
