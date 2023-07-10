@@ -1,4 +1,8 @@
 {
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/al3xsus/media-creaton-tool-mockup"
+  },
   "author": {
     "name": "Alexandr Lavrentyev",
     "email": "al3xsus@pm.me"
@@ -10,15 +14,16 @@
     }
   ],
   "description": "Mockup for a better version of Microsoft Creation Media Tool made with React & Semantic UI",
-  "homepage": "",
+  "homepage": "https://al3xsus.github.io/media-creaton-tool-mockup/",
   "keywords": [
     "spa",
     "react",
-    "semantic-ui-react",
-    "semantic-ui-css"
+    "semantic-ui",
+    "mockup",
+    "design-mockup",
+    "typescript"
   ],
   "license": "MIT",
-
   "name": "media-creation-tool-mockup",
   "version": "0.1.0",
   "private": true,
